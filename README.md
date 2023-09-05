@@ -6,3 +6,5 @@
 基于TamperMonkey，适用于常规帖子界面https://www.skland.com/h/detail?id=******
 
 安装https://github.com/yige-yigeren/ClearSkland/raw/main/ClearSkland.user.js
+
+或者greasyfork:https://greasyfork.org/zh-CN/scripts/474565
