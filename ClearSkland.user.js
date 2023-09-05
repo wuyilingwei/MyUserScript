@@ -2,6 +2,7 @@
 // @name         森空岛简易净化
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @license      MIT LICENSE
 // @description  移除非森空岛客户端请求给的app引导
 // @author       WuYilingwei
 // @match        https://www.skland.com/h/detail*
