@@ -8,3 +8,5 @@
 安装https://github.com/yige-yigeren/ClearSkland/raw/main/ClearSkland.user.js
 
 或者greasyfork:https://greasyfork.org/zh-CN/scripts/474565
+
+所以yj是不打算出SKD的网页版？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
