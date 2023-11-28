@@ -1,0 +1,22 @@
+.custom_stamps {
+    max-height: 320px;
+    width: 105%;
+    overflow: scroll;
+}
+
+.stamp_manage {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 80px);
+    justify-content: center;
+}
+
+.stamp_card {
+    background-color: rgb(var(--colors-gray-300) / var(--tw-bg-opacity));
+    border-radius: 10px;
+}
+
+.stamp_card>img {
+    max-height: 80px;
+    margin: 0 auto;
+}

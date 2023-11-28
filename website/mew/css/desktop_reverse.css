@@ -1,0 +1,7 @@
+[class^='layouts_root__'] {
+    flex-direction: row-reverse;
+}
+
+[class^='layouts_right-container__'] {
+    margin-right: 1rem;
+}
