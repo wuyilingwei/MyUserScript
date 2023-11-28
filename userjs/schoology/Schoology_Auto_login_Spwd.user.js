@@ -8,8 +8,8 @@
 // @match        *://schoology.com/login*
 // @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
 // @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
-// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/website/schoology/Schoology_Auto_login_Spwd.user.js
-// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/website/schoology/Schoology_Auto_login_Spwd.user.js
+// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js
+// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=schoology.com
 // @grant        GM_getValue
 // @grant        GM_setValue

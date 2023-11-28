@@ -1,4 +1,4 @@
-# 用户脚本 User script
+# 网站脚本 Website script
 
 *个人用户脚本库，用于存放自己写的一些脚本。*
 
@@ -16,17 +16,17 @@ The main languages of this repository are Simplified Chinese and English, but I'
 
 Due to the different aspects involved, the attribution I left may be different.
 
-## 脚本列表 List of scripts
+## 用户脚本列表 List of user scripts
 
-### 通用（暂无）General (not yet available)
+[Mew](/userjs/mew/README.md) （已停止维护并存档）
 
-### 网站专用 Website specific
+[Schoology](/userjs/schoology/README.md)
 
-[Mew](/website/mew/README.md) （已停止维护并存档）
+[Skland](/userjs/skland/README.md)
 
-[Schoology](/website/schoology/README.md)
+## 书签脚本列表 List of bookmark scripts
 
-[Skland](/website/skland/README.md)
+[Fastshift-github-fastgit](/markjs/fastshift-github-fastgit/README.md)
 
 ## License
 
