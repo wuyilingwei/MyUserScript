@@ -6,15 +6,16 @@
 // @author       YigeYigeren & ChatGPT
 // @match        *://*.schoology.com/login*
 // @match        *://schoology.com/login*
-// @supportURL   https://github.com/yige-yigeren/better_schoology.user.js/issues
-// @homepageURL  https://github.com/yige-yigeren/better_schoology.user.js
-// @downloadURL  https://github.com/yige-yigeren/better_schoology.user.js/raw/main/Schoology_Auto_login_Spwd.user.js
-// @updateURL    https://github.com/yige-yigeren/better_schoology.user.js/raw/main/Schoology_Auto_login_Spwd.user.js
+// @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
+// @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
+// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/website/schoology/Schoology_Auto_login_Spwd.user.js
+// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/website/schoology/Schoology_Auto_login_Spwd.user.js
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=schoology.com
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
 // @grant        GM_unregisterMenuCommand
-// @license MIT
+// @license MIT & Anti-Labor Exploitation License
 // ==/UserScript==
 
 
