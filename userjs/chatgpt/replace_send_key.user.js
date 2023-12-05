@@ -10,7 +10,7 @@
 // @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
 // @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=openai.com
-// @license MIT & Anti-Labor Exploitation License
+// @license      MIT & Anti-Labor Exploitation License
 // @grant        none
 // ==/UserScript==
 
