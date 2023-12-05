@@ -26,7 +26,7 @@ Due to the different aspects involved, the attribution I left may be different.
 
 ## 书签脚本列表 List of bookmark scripts
 
-[Fastshift-github-fastgit](/markjs/fastshift-github-fastgit/README.md)
+[Fastshift-github-fastgit](/markjs/Fastshift-github-fastgit)
 
 ## License
 
