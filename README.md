@@ -18,6 +18,8 @@ Due to the different aspects involved, the attribution I left may be different.
 
 ## 用户脚本列表 List of user scripts
 
+[ChatGPT](/userjs/chatgpt/README.md)
+
 [Mew](/userjs/mew/README.md) （已停止维护并存档）
 
 [Schoology](/userjs/schoology/README.md)
