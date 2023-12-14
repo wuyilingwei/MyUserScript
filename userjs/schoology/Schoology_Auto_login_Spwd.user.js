@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Schoology Auto login (Save Password ver)
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Auto login Schoology
 // @author       YigeYigeren & ChatGPT
 // @match        *://*.schoology.com/login*
@@ -34,8 +34,9 @@
     function promptForCredentials() {
         let username = prompt("Please enter your username", "");
         let password = prompt("Please enter your password", "");
+        let showname = prompt("Please enter the name you want to display", "");
         password = encode(password); // Encode the password
-        return { username, password };
+        return { username, password, showname };
     }
 
     // Function to save credentials
@@ -52,6 +53,34 @@
         }
         return saved;
     }
+    // function to hide login process
+function showLoginOverlay(username) {
+    const overlay = document.createElement('div');
+    overlay.id = 'login-overlay';
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.backgroundColor = 'rgba(255, 255, 255, 1)';
+    overlay.style.zIndex = '1000';
+    overlay.style.display = 'flex';
+    overlay.style.justifyContent = 'center';
+    overlay.style.alignItems = 'center';
+    overlay.style.fontSize = '2vw'; // Dynamic font size based on screen width
+    overlay.style.fontWeight = 'bold'; // Bolder font
+    overlay.style.color = 'rgb(6, 119, 186)';
+    overlay.style.textAlign = 'center'; // Center align text
+    overlay.style.padding = '20px'; // Padding to ensure text is not right at the edges
+
+    const textWrapper = document.createElement('div');
+    textWrapper.innerText = `Auto-login system working,\nwelcome back ${username}`;
+    textWrapper.style.whiteSpace = 'pre-line'; // To respect new lines in text
+
+    overlay.appendChild(textWrapper);
+    document.body.appendChild(overlay);
+}
+
 
     // Function to fill and submit the form
     function fillAndSubmitForm(credentials) {
@@ -79,11 +108,12 @@
 
     // Check if credentials are already saved, if not prompt the user
     let credentials = getSavedCredentials();
-    if (!credentials || !credentials.username || !credentials.password) {
+    if (!credentials || !credentials.username || !credentials.password || !credentials.showname) {
         credentials = promptForCredentials();
         saveCredentials(credentials);
     }
 
+    showLoginOverlay(credentials.showname); // Show the overlay
     // Auto-login part
     let attempts = 0;
     const maxAttempts = 5;
