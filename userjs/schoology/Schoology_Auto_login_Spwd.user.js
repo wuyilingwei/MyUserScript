@@ -74,7 +74,7 @@ function showLoginOverlay(username) {
     overlay.style.padding = '20px'; // Padding to ensure text is not right at the edges
 
     const textWrapper = document.createElement('div');
-    textWrapper.innerText = `Auto login System Working\n\nWelcome Back\n ${username}`;
+    textWrapper.innerText = `Auto Login Plugin Working\n\nWelcome Back\n ${username}`;
     textWrapper.style.whiteSpace = 'pre-line'; // To respect new lines in text
 
     overlay.appendChild(textWrapper);
