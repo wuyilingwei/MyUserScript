@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Schoology Auto login (Save Password ver)
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.1
 // @description  Auto login Schoology
 // @author       YigeYigeren & ChatGPT
 // @match        *://*.schoology.com/login*
@@ -67,14 +67,14 @@ function showLoginOverlay(username) {
     overlay.style.display = 'flex';
     overlay.style.justifyContent = 'center';
     overlay.style.alignItems = 'center';
-    overlay.style.fontSize = '2vw'; // Dynamic font size based on screen width
+    overlay.style.fontSize = '5vw'; // Dynamic font size based on screen width
     overlay.style.fontWeight = 'bold'; // Bolder font
     overlay.style.color = 'rgb(6, 119, 186)';
     overlay.style.textAlign = 'center'; // Center align text
     overlay.style.padding = '20px'; // Padding to ensure text is not right at the edges
 
     const textWrapper = document.createElement('div');
-    textWrapper.innerText = `Auto login System Working\nWelcome Back ${username}`;
+    textWrapper.innerText = `Auto login System Working\n\nWelcome Back\n ${username}`;
     textWrapper.style.whiteSpace = 'pre-line'; // To respect new lines in text
 
     overlay.appendChild(textWrapper);
