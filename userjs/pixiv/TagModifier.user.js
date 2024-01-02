@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pixiv Tag Modifier
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Modify search tags on Pixiv
 // @author       WuYilingwei
 // @match        *://*.pixiv.net/*
