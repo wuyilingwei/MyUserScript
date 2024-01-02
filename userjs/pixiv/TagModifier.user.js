@@ -25,12 +25,12 @@
         var tags = prompt("Enter tags to exclude请输入要屏蔽的Tag(e.g., -ai, -tag2):", "");
         if (tags) {
             GM_setValue("exclusionTags", tags);
-            alert("Exclusion tags updated! Tags: " + tags);
+            alert("Exclusion tags updated! 屏蔽Tags已经更新！Tags: " + tags);
         }
     }
 
     // Register menu command
-    GM_registerMenuCommand("Set Exclusion Tags 自定义Tag已设定", setExclusionTags, "e");
+    GM_registerMenuCommand("Set Exclusion Tags 设定自定义Tag", setExclusionTags, "e");
 
     // Modify the URL if it matches the Pixiv tags pattern
     function modifyURL(url) {
