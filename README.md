@@ -22,6 +22,8 @@ Due to the different aspects involved, the attribution I left may be different.
 
 [Mew](/userjs/mew/README.md) （已停止维护并存档）
 
+[Pixiv](/userjs/pixiv/README.md)
+
 [Schoology](/userjs/schoology/README.md)
 
 [Skland](/userjs/skland/README.md)
