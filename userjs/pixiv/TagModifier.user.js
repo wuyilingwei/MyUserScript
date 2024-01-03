@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pixiv Tag Modifier
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Modify search tags on Pixiv
 // @author       WuYilingwei
 // @match        *://*.pixiv.net/*
@@ -22,60 +22,35 @@
 
     // Function to prompt for exclusion tags and save them
     function setExclusionTags() {
-        var tags = prompt("Enter tags to exclude请输入要屏蔽的Tag(e.g., -ai, -tag2):", "");
+        var tags = prompt("Enter tags to exclude, separated by commas (e.g., -ai):", "");
         if (tags) {
             GM_setValue("exclusionTags", tags);
-            alert("Exclusion tags updated! 屏蔽Tags已经更新！Tags: " + tags);
+            alert("Exclusion tags updated! Tags: " + tags);
         }
     }
 
     // Register menu command
-    GM_registerMenuCommand("Set Exclusion Tags 设定自定义Tag", setExclusionTags, "e");
+    GM_registerMenuCommand("Set Exclusion Tags", setExclusionTags, "e");
 
-    // Modify the URL if it matches the Pixiv tags pattern
-    function modifyURL(url) {
-        const exclusionTags = new Set(GM_getValue("exclusionTags", "").split(',').map(tag => tag.trim()));
-        const urlObj = new URL(url);
+    // Function to modify the URL
+    function modifyURL() {
+        const currentURL = window.location.href;
+        const urlObj = new URL(currentURL);
         const pathSegments = urlObj.pathname.split('/');
-        let modified = false;
 
         if (pathSegments[1] === 'tags' && pathSegments[2]) {
-            const currentTags = new Set(pathSegments[2].split(' '));
+            const userTag = GM_getValue("exclusionTags", "").split(',')[0].trim(); // Assuming single exclusion tag for simplicity
+            const decodedPathTags = decodeURIComponent(pathSegments[2]);
 
-            exclusionTags.forEach(tag => {
-                if (!currentTags.has(tag)) {
-                    currentTags.add(tag);
-                    modified = true;
-                }
-            });
-
-            if (modified) {
-                const newTags = Array.from(currentTags).join(' ');
-                return `https://www.pixiv.net/tags/${newTags}/${pathSegments.slice(3).join('/')}`;
+            // Check if the user tag is already in the URL
+            if (!decodedPathTags.includes(userTag)) {
+                const newTags = decodedPathTags + ' ' + userTag;
+                const newURL = `${urlObj.origin}/tags/${encodeURIComponent(newTags)}/${pathSegments.slice(3).join('/')}`;
+                window.location.replace(newURL);
             }
         }
-
-        return url;
     }
 
-    // Function to handle dynamic page loads
-    function attachClickListener() {
-        document.addEventListener('click', function(e) {
-            setTimeout(function() {
-                const newURL = modifyURL(window.location.href);
-                if (newURL !== window.location.href) {
-                    window.history.replaceState(null, null, newURL);
-                }
-            }, 500); // Timeout to wait for dynamic page update
-        });
-    }
-
-    // Initial URL modification
-    const newURL = modifyURL(window.location.href);
-    if (newURL !== window.location.href) {
-        window.location.replace(newURL);
-    }
-
-    // Attach click listener for dynamic page loads
-    attachClickListener();
+    // Continuous URL monitoring
+    setInterval(modifyURL, 1000);
 })();
