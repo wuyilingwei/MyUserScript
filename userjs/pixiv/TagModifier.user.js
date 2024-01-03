@@ -14,7 +14,7 @@
 // @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js
 // @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js
 // @license      MIT & Anti-Labor Exploitation License
-// @run-at       document-end
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
