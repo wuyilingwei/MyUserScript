@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  替换enter为换行，enter+shift为发送
-// @author       YigeYigeren
+// @author       YigeYigeren & ChrAlpha
 // @match        https://chat.openai.com/*
 // @match        https://chatgpt.com/*
 // @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
