@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         替换发送快捷键
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  替换enter为换行，enter+shift为发送
 // @author       YigeYigeren
 // @match        https://chat.openai.com/*
+// @match        https://chatgpt.com/*
 // @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
 // @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
 // @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
