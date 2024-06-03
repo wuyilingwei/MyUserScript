@@ -7,10 +7,10 @@
 // @author       WuYilingwei
 // @match        https://www.skland.com/h/detail*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=skland.com
-// @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
-// @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
-// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/skland/ClearSkland.user.js
-// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/skland/ClearSkland.user.js
+// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
+// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/skland/ClearSkland.user.js
+// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/skland/ClearSkland.user.js
 // @license MIT & Anti-Labor Exploitation License
 // @grant        none
 // ==/UserScript==

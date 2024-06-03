@@ -8,7 +8,7 @@ Please install function modules as required.
 
 ### Save password version
 
-[Click here Install](https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js)
+[Click here Install](https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js)
 
 The Script will automatically save the password to the User Script Manager, and the User Script Manager will automatically fill in the password when you visit the login page and click login.
 
@@ -18,7 +18,7 @@ Please note that this may lead to password leakage and sharing (but if your brow
 
 ### Only Click version
 
-[Click here Install](https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_OCli.user.js)
+[Click here Install](https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_OCli.user.js)
 
 The browser is required to autofill the password.
 
@@ -28,7 +28,7 @@ If your browser is like this, I prefer the saved password version.
 
 ## 2. The course interface automatically expands all items
 
-[Click here Install](https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_expand.user.js)
+[Click here Install](https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_expand.user.js)
 
 *This feature may affect its original behavior. For example, the loading animation will not disappear after the loading is completed, so the script will automatically remove all loading animations.
 

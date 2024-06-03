@@ -6,10 +6,10 @@
 // @author       YigeYigeren & ChatGPT
 // @match        *://*.schoology.com/course/*
 // @match        *://schoology.com/course/*
-// @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
-// @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
-// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_expand.user.js
-// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_expand.user.js
+// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
+// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_expand.user.js
+// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_expand.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=schoology.com
 // @license MIT & Anti-Labor Exploitation License
 // @grant        none

@@ -5,10 +5,10 @@
 // @description  替换enter为换行，enter+shift为发送
 // @author       YigeYigeren
 // @match        https://chat.openai.com/*
-// @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
-// @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
-// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
-// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
+// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
+// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
+// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=openai.com
 // @license      MIT & Anti-Labor Exploitation License
 // @grant        none

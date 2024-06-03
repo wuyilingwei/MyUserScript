@@ -9,10 +9,10 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pixiv.net
-// @supportURL   https://github.com/yige-yigeren/YigerenUserScript/issues
-// @homepageURL  https://github.com/yige-yigeren/YigerenUserScript
-// @downloadURL  https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js
-// @updateURL    https://github.com/yige-yigeren/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js
+// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
+// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js
+// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js
 // @license      MIT & Anti-Labor Exploitation License
 // @run-at       document-start
 // ==/UserScript==
