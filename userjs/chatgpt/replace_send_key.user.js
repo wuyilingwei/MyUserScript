@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         替换发送快捷键
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  替换enter为换行，enter+shift为发送
-// @author       YigeYigeren
+// @author       YigeYigeren & ChrAlpha
 // @match        https://chat.openai.com/*
 // @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
 // @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
