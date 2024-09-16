@@ -20,4 +20,4 @@ Please note that this may lead to password leakage and sharing (but if your brow
 
 This script has been modified from the Schoology version to fit the idpz login system and the beautified overlay box.
 
-~~Damn, can't they write an automatic login? I log into the school's websites at least ten times a day.~~
+~~Damn, can't they set an automatic login? I need log into the school's websites at least ten times per day.~~
