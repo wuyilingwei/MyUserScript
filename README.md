@@ -20,11 +20,11 @@ Due to the different aspects involved, the attribution I left may be different.
 
 [ChatGPT](/userjs/chatgpt/README.md)
 
-[Mew](/userjs/mew/README.md) （已停止维护并存档）
+[Mew](/userjs/mew/README.md) （已停止维护并存档 End Support）
 
 [Pixiv](/userjs/pixiv/README.md)
 
-[Schoology](/userjs/schoology/README.md) （已停止维护并存档）
+[Schoology](/userjs/schoology/README.md) （已停止维护并存档 End Support）
 
 [Skland](/userjs/skland/README.md)
 
