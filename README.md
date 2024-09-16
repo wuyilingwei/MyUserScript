@@ -24,9 +24,11 @@ Due to the different aspects involved, the attribution I left may be different.
 
 [Pixiv](/userjs/pixiv/README.md)
 
-[Schoology](/userjs/schoology/README.md)
+[Schoology](/userjs/schoology/README.md) （已停止维护并存档）
 
 [Skland](/userjs/skland/README.md)
+
+[U of T idpz](/userjs/UofT-idpz/README.md)
 
 ## 书签脚本列表 List of bookmark scripts
 

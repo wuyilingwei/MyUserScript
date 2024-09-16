@@ -4,6 +4,8 @@ Modular design for easy modification and installation according to individual ne
 
 Please install function modules as required.
 
+I no longer use Schoology. Content may be outdated. Last verified on June 2024. Although no longer updated, the markup of the search match part should not be changed arbitrarily.
+
 ## 1. Automatic login
 
 ### Save password version
