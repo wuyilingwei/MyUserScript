@@ -28,7 +28,7 @@ Due to the different aspects involved, the attribution I left may be different.
 
 [Skland](/userjs/skland/README.md)
 
-[U of T idpz](/userjs/UofT-idpz/README.md)
+[U of T Websites](/userjs/UofT/README.md)
 
 ## 书签脚本列表 List of bookmark scripts
 

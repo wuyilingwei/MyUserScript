@@ -4,11 +4,11 @@ Modular design for easy modification and installation according to individual ne
 
 Please install function modules as required.
 
-## 1. Automatic login
+## 1. Automatic login IDPZ
 
 ### Save password version
 
-[Click here Install](https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT-idpz/Auto_login_Spwd.user.js)
+[Click here Install](https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT/Auto_login_idpz_Spwd.user.js)
 
 This User js is for U of T's idpz student/faculty login system, automate it and don't have to do anything.
 

@@ -3,12 +3,12 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  Auto login weblogin idpz
-// @author       Lanc & ChatGPT
+// @author       Lanc
 // @match        *://idpz.utorauth.utoronto.ca/idp/profile/SAML2/Redirect/SSO*
 // @supportURL   https://github.com/wuyilingwei/MyUserScript/issues
 // @homepageURL  https://github.com/wuyilingwei/MyUserScript
-// @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT-idpz/Auto_login_Spwd.user.js
-// @updateURL    https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT-idpz/Auto_login_Spwd.user.js
+// @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT/Auto_login_idpz_Spwd.user.js
+// @updateURL    https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT/Auto_login_idpz_Spwd.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=idpz.utorauth.utoronto.ca
 // @grant        GM_getValue
 // @grant        GM_setValue
