@@ -21,3 +21,10 @@ Please note that this may lead to password leakage and sharing (but if your brow
 This script has been modified from the Schoology version to fit the idpz login system and the beautified overlay box.
 
 ~~Damn, can't they set an automatic login? I need log into the school's websites at least ten times per day.~~
+
+
+## 2. No waiting fk PCRS server running
+
+[Click here Install](https://github.com/wuyilingwei/MyUserScript/raw/refs/heads/main/userjs/UofT/No_waiting_fk_server.user.js)
+
+Remove the overlay of the running program. You don't have to wait for the server to respond. You can write the next question first.
