@@ -16,7 +16,7 @@ The Script will automatically save the password to the User Script Manager, and 
 
 I not upload password to any server, and the password is stored in the browser's local storage(Use Base64 Encode).
 
-Please note that this may lead to password leakage and sharing (but if your browser storage is no longer secure, then your entire device has most likely been compromised).
+Please note that this may lead to password leakage (but if your browser storage is no longer secure, then your entire device has most likely been compromised).
 
 This script has been modified from the Schoology version to fit the idpz login system and the beautified overlay box.
 
