@@ -9,6 +9,7 @@
 // @homepageURL  https://github.com/wuyilingwei/MyUserScript
 // @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/mathmatize/Im_in_class.user.js
 // @updateURL    https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/mathmatize/Im_in_class.user.js
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=www.mathmatize.com
 // @grant        none
 // ==/UserScript==
 
