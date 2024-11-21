@@ -38,7 +38,7 @@ Due to the different aspects involved, the attribution I left may be different.
 
 [MIT](/LICENSE)
 
-[Anti-Labor Exploitation License](/Additional_LICENSE_CN)
+[Anti-Labor Exploitation License](/Additional_LICENSE)
 
 ## 免责声明 Disclaimer
 
