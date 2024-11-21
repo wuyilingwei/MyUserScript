@@ -4,9 +4,9 @@
 
 *Personal user script library for storing some scripts written by myself.*
 
-*当前仅发布在Github与GreasyFork，请勿从其他来源下载，其他来源提供的源文件可能包含恶意程序。
+*当前仅发布在Github与GreasyFork（部分），请勿从其他来源下载，其他来源提供的源文件可能包含恶意程序。
 
-*Currently only published on Github with GreasyFork, please do not download from other sources, the source files provided by other sources may contain malicious programs.
+*Currently only published on Github with GreasyFork(Part), please do not download from other sources, the source files provided by other sources may contain malicious programs.
 
 本仓库主要语言为简体中文与英语，但我很高兴有人能帮我翻译成其他语言。
 
@@ -29,6 +29,8 @@ Due to the different aspects involved, the attribution I left may be different.
 [Skland](/userjs/skland/README.md)
 
 [U of T Websites](/userjs/UofT/README.md)
+
+[mathmatize](/userjs/mathmatize/README.md)
 
 ## 书签脚本列表 List of bookmark scripts
 
