@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Im in class!
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Notice new Vote on Mathmatize
 // @author       UTM CS Lanc
 // @match        https://www.mathmatize.com/*
@@ -42,8 +42,8 @@
             const buttonText = button.textContent.trim();
             console.log("Detected Button Text:", buttonText); // 调试用
 
-            if (buttonText === "Submit" && !assignmentNotified) {
-                // 当按钮文本为 "SUBMIT" 且未通知过
+            if ((buttonText.includes("Submit") || buttonText.includes("提交")) && !assignmentNotified) {
+                // 当按钮文本为 "Submit" 且未通知过
                 new Notification("New Assignment!", {
                     body: "You have a new assignment waiting to submit!",
                     icon: "https://www.mathmatize.com/_next/image/?url=%2Flogo.png&w=48&q=75"
@@ -52,8 +52,8 @@
                 localStorage.setItem("assignmentNotified", "true"); // 保存通知状态
             }
 
-            if (buttonText === "Update") {
-                // 如果按钮文本为 "UPDATE"，重置通知状态
+            if (buttonText.includes("Update") || buttonText.includes("更新")) {
+                // 如果按钮文本为 "Update"，重置通知状态
                 localStorage.setItem("assignmentNotified", "false");
             }
         });
