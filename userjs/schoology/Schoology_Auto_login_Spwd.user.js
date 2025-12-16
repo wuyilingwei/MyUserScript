@@ -6,10 +6,10 @@
 // @author       YigeYigeren & ChatGPT
 // @match        *://*.schoology.com/login*
 // @match        *://schoology.com/login*
-// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
-// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
-// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js
-// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js
+// @supportURL   https://github.com/wuyilingwei/MyUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/MyUserScript
+// @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js
+// @updateURL    https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/schoology/Schoology_Auto_login_Spwd.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=schoology.com
 // @grant        GM_getValue
 // @grant        GM_setValue
@@ -19,7 +19,7 @@
 // ==/UserScript==
 
 
-(function() {
+(function () {
     'use strict';
 
     // Function to encode and decode Base64
@@ -54,32 +54,32 @@
         return saved;
     }
     // function to hide login process
-function showLoginOverlay(username) {
-    const overlay = document.createElement('div');
-    overlay.id = 'login-overlay';
-    overlay.style.position = 'fixed';
-    overlay.style.top = '0';
-    overlay.style.left = '0';
-    overlay.style.width = '100%';
-    overlay.style.height = '100%';
-    overlay.style.backgroundColor = 'rgba(255, 255, 255, 1)';
-    overlay.style.zIndex = '1000';
-    overlay.style.display = 'flex';
-    overlay.style.justifyContent = 'center';
-    overlay.style.alignItems = 'center';
-    overlay.style.fontSize = '5vw'; // Dynamic font size based on screen width
-    overlay.style.fontWeight = 'bold'; // Bolder font
-    overlay.style.color = 'rgb(6, 119, 186)';
-    overlay.style.textAlign = 'center'; // Center align text
-    overlay.style.padding = '20px'; // Padding to ensure text is not right at the edges
+    function showLoginOverlay(username) {
+        const overlay = document.createElement('div');
+        overlay.id = 'login-overlay';
+        overlay.style.position = 'fixed';
+        overlay.style.top = '0';
+        overlay.style.left = '0';
+        overlay.style.width = '100%';
+        overlay.style.height = '100%';
+        overlay.style.backgroundColor = 'rgba(255, 255, 255, 1)';
+        overlay.style.zIndex = '1000';
+        overlay.style.display = 'flex';
+        overlay.style.justifyContent = 'center';
+        overlay.style.alignItems = 'center';
+        overlay.style.fontSize = '5vw'; // Dynamic font size based on screen width
+        overlay.style.fontWeight = 'bold'; // Bolder font
+        overlay.style.color = 'rgb(6, 119, 186)';
+        overlay.style.textAlign = 'center'; // Center align text
+        overlay.style.padding = '20px'; // Padding to ensure text is not right at the edges
 
-    const textWrapper = document.createElement('div');
-    textWrapper.innerText = `Auto Login Plugin Working\n\nWelcome Back\n ${username}`;
-    textWrapper.style.whiteSpace = 'pre-line'; // To respect new lines in text
+        const textWrapper = document.createElement('div');
+        textWrapper.innerText = `Auto Login Plugin Working\n\nWelcome Back\n ${username}`;
+        textWrapper.style.whiteSpace = 'pre-line'; // To respect new lines in text
 
-    overlay.appendChild(textWrapper);
-    document.body.appendChild(overlay);
-}
+        overlay.appendChild(textWrapper);
+        document.body.appendChild(overlay);
+    }
 
 
     // Function to fill and submit the form
@@ -96,12 +96,12 @@ function showLoginOverlay(username) {
     }
 
     // Register menu commands
-    GM_registerMenuCommand("Initialize Script", function() {
+    GM_registerMenuCommand("Initialize Script", function () {
         let credentials = promptForCredentials();
         saveCredentials(credentials);
     });
 
-    GM_registerMenuCommand("Change Credentials", function() {
+    GM_registerMenuCommand("Change Credentials", function () {
         let credentials = promptForCredentials();
         saveCredentials(credentials);
     });
@@ -118,7 +118,7 @@ function showLoginOverlay(username) {
     let attempts = 0;
     const maxAttempts = 5;
 
-    const intervalID = setInterval(function() {
+    const intervalID = setInterval(function () {
         if (credentials && credentials.username && credentials.password) {
             fillAndSubmitForm(credentials); // Fill and submit form if credentials are provided
         }

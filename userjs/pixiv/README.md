@@ -4,4 +4,4 @@
 
 Unliked tags can be customized and excluded from the search function
 
-[安装 install](https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/pixiv/TagModifier.user.js)
+[安装 install](https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/pixiv/TagModifier.user.js)

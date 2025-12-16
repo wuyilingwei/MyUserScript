@@ -5,4 +5,4 @@
 
 Match replace enter for line feed, enter+shift for send
 
-[安装 install](https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js)
+[安装 install](https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js)

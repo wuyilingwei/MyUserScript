@@ -5,16 +5,16 @@
 // @description  替换enter为换行，enter+shift为发送
 // @author       YigeYigeren & ChrAlpha
 // @match        https://chat.openai.com/*
-// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
-// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
-// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
-// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
+// @supportURL   https://github.com/wuyilingwei/MyUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/MyUserScript
+// @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
+// @updateURL    https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=openai.com
 // @license      MIT & Anti-Labor Exploitation License
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     const PROMPT_TEXTAREA_ID = 'prompt-textarea';

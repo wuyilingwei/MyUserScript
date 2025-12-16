@@ -5,10 +5,10 @@
 // @description  对话内容全宽；输入框限制 80% 并居中 (基于 input-container 修正)
 // @author       Wuyilingwei
 // @match        https://gemini.google.com/*
-// @supportURL   https://github.com/wuyilingwei/YigerenUserScript/issues
-// @homepageURL  https://github.com/wuyilingwei/YigerenUserScript
-// @downloadURL  https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
-// @updateURL    https://github.com/wuyilingwei/YigerenUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
+// @supportURL   https://github.com/wuyilingwei/MyUserScript/issues
+// @homepageURL  https://github.com/wuyilingwei/MyUserScript
+// @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
+// @updateURL    https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/chatgpt/replace_send_key.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com
 // @license      MIT & Anti-Labor Exploitation License
 // @grant        GM_addStyle
