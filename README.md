@@ -13,6 +13,7 @@ Due to the different aspects involved, the attribution I left may be different.
 ## List of user scripts
 
 <!-- SCRIPT_LIST_START -->
+
 [ChatGPT](/userjs/chatgpt/README.md)
 
 [Mew](/userjs/mew/README.md) (End Support - Archived)
@@ -28,12 +29,15 @@ Due to the different aspects involved, the attribution I left may be different.
 [gimini](/userjs/gimini/README.md)
 
 [mathmatize](/userjs/mathmatize/README.md)
+
 <!-- SCRIPT_LIST_END -->
 
 ## List of bookmark scripts
 
 <!-- BOOKMARK_LIST_START -->
+
 [Fastshift-github-fastgit](/markjs/Fastshift-github-fastgit/README.md)
+
 <!-- BOOKMARK_LIST_END -->
 
 ## License
