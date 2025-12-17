@@ -14,12 +14,19 @@
 
 <!-- SCRIPT_LIST_START -->
 [ChatGPT](/userjs/chatgpt/README.md)
-[Mew](/userjs/mew/README.md) （已停止维护并存档 End Support）
+
+[Mew](/userjs/mew/README.md) （已停止维护并存档）
+
 [Pixiv](/userjs/pixiv/README.md)
-[Schoology](/userjs/schoology/README.md) （已停止维护并存档 End Support）
+
+[Schoology](/userjs/schoology/README.md) （已停止维护并存档）
+
 [Skland](/userjs/skland/README.md)
+
 [U of T Websites](/userjs/UofT/README.md)
+
 [gimini](/userjs/gimini/README.md)
+
 [mathmatize](/userjs/mathmatize/README.md)
 <!-- SCRIPT_LIST_END -->
 

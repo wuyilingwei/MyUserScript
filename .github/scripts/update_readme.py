@@ -2,16 +2,23 @@ import os
 import re
 
 def get_existing_entries(content, start_marker, end_marker):
+    # Find the content block
     pattern = re.compile(f"{re.escape(start_marker)}(.*?){re.escape(end_marker)}", re.DOTALL)
     match = pattern.search(content)
     entries = {}
     if match:
-        lines = match.group(1).strip().split('\n')
+        # Split by newlines to get individual lines
+        block_content = match.group(1).strip()
+        if not block_content:
+            return entries
+            
+        lines = block_content.split('\n')
         for line in lines:
             line = line.strip()
             if not line: continue
-            # Extract link to use as key
-            # [Name](/path/to/something) ...
+            
+            # Extract link path to use as key: [Name](Path)
+            # We want to match the path inside (...)
             link_match = re.search(r'\]\((.*?)\)', line)
             if link_match:
                 path = link_match.group(1)
@@ -42,28 +49,31 @@ def update_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # User Scripts
+    # Process User Scripts
     user_entries = get_existing_entries(content, "<!-- SCRIPT_LIST_START -->", "<!-- SCRIPT_LIST_END -->")
     found_user_scripts = scan_directory('userjs')
     
     new_user_lines = []
     for script in found_user_scripts:
         if script['link'] in user_entries:
+            # Preserve existing line (including custom descriptions)
             new_user_lines.append(user_entries[script['link']])
         else:
+            # New entry
             new_user_lines.append(f"[{script['name']}]({script['link']})")
     
     new_user_lines.sort()
     
-    new_user_section = "\n".join(new_user_lines)
+    # Join with double newlines for spacing
+    new_user_section = "\n\n".join(new_user_lines)
     content = re.sub(
         r"(<!-- SCRIPT_LIST_START -->).*?(<!-- SCRIPT_LIST_END -->)",
-        f"\\1\n{new_user_section}\n\\2",
+        f"\\1\n\n{new_user_section}\n\n\\2",
         content,
         flags=re.DOTALL
     )
 
-    # Bookmark Scripts
+    # Process Bookmark Scripts
     mark_entries = get_existing_entries(content, "<!-- BOOKMARK_LIST_START -->", "<!-- BOOKMARK_LIST_END -->")
     found_mark_scripts = scan_directory('markjs')
     
@@ -76,10 +86,10 @@ def update_file(file_path):
             
     new_mark_lines.sort()
     
-    new_mark_section = "\n".join(new_mark_lines)
+    new_mark_section = "\n\n".join(new_mark_lines)
     content = re.sub(
         r"(<!-- BOOKMARK_LIST_START -->).*?(<!-- BOOKMARK_LIST_END -->)",
-        f"\\1\n{new_mark_section}\n\\2",
+        f"\\1\n\n{new_mark_section}\n\n\\2",
         content,
         flags=re.DOTALL
     )

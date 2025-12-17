@@ -14,12 +14,19 @@ Due to the different aspects involved, the attribution I left may be different.
 
 <!-- SCRIPT_LIST_START -->
 [ChatGPT](/userjs/chatgpt/README.md)
-[Mew](/userjs/mew/README.md) （已停止维护并存档 End Support）
+
+[Mew](/userjs/mew/README.md) (End Support - Archived)
+
 [Pixiv](/userjs/pixiv/README.md)
-[Schoology](/userjs/schoology/README.md) （已停止维护并存档 End Support）
+
+[Schoology](/userjs/schoology/README.md) (End Support - Archived)
+
 [Skland](/userjs/skland/README.md)
+
 [U of T Websites](/userjs/UofT/README.md)
+
 [gimini](/userjs/gimini/README.md)
+
 [mathmatize](/userjs/mathmatize/README.md)
 <!-- SCRIPT_LIST_END -->
 
