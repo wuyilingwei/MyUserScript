@@ -19,13 +19,14 @@ Due to the different aspects involved, the attribution I left may be different.
 [Schoology](/userjs/schoology/README.md) （已停止维护并存档 End Support）
 [Skland](/userjs/skland/README.md)
 [U of T Websites](/userjs/UofT/README.md)
+[gimini](/userjs/gimini/README.md)
 [mathmatize](/userjs/mathmatize/README.md)
 <!-- SCRIPT_LIST_END -->
 
 ## List of bookmark scripts
 
 <!-- BOOKMARK_LIST_START -->
-[Fastshift-github-fastgit](/markjs/Fastshift-github-fastgit)
+[Fastshift-github-fastgit](/markjs/Fastshift-github-fastgit/README.md)
 <!-- BOOKMARK_LIST_END -->
 
 ## License
