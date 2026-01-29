@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         U of T Auto login (Save Password ver)
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Auto login weblogin idpz
 // @author       Lanc
 // @match        *://idpz.utorauth.utoronto.ca/idp/profile/SAML2/Redirect/SSO*
+// @match        *://idpz.utorauth.utoronto.ca/idp/profile/SAML2/POST/SSO*
 // @supportURL   https://github.com/wuyilingwei/MyUserScript/issues
 // @homepageURL  https://github.com/wuyilingwei/MyUserScript
 // @downloadURL  https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/UofT/Auto_login_idpz_Spwd.user.js

@@ -13,7 +13,6 @@
 ## 用户脚本列表
 
 <!-- SCRIPT_LIST_START -->
-
 [ChatGPT](/userjs/chatgpt/README.md)
 
 [Mew](/userjs/mew/README.md) （已停止维护并存档）
@@ -29,15 +28,12 @@
 [gimini](/userjs/gimini/README.md)
 
 [mathmatize](/userjs/mathmatize/README.md)
-
 <!-- SCRIPT_LIST_END -->
 
 ## 书签脚本列表
 
 <!-- BOOKMARK_LIST_START -->
-
 [Fastshift-github-fastgit](/markjs/Fastshift-github-fastgit/README.md)
-
 <!-- BOOKMARK_LIST_END -->
 
 ## License
