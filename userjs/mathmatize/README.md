@@ -8,9 +8,7 @@ Please install function modules as required.
 
 [Click here Install](https://github.com/wuyilingwei/MyUserScript/raw/main/userjs/mathmatize/Im_in_class.user.js)
 
-Are you still troubled by missing classroom participation because you were distracted during class? Still skipping attendance just because you don’t want to listen to lectures?
-
-Then unfortunately got deducted from the class participation score for the Mat course?
+Unfortunately got deducted from the class participation score for the Mat course?
 
 **Im in class**—just what you need!
 
