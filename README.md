@@ -26,6 +26,8 @@ Due to the different aspects involved, the attribution I left may be different.
 
 [U of T Websites](/userjs/UofT/README.md)
 
+[claude](/userjs/claude/README.md)
+
 [gimini](/userjs/gimini/README.md)
 
 [mathmatize](/userjs/mathmatize/README.md)
